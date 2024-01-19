@@ -8,8 +8,9 @@
 // import getBudgetObject from './7-getBudgetObject.js';
 // import getBudgetForCurrentYear from "./8-getBudgetCurrentYear";
 // import getFullBudgetObject from "./9-getFullBudget";
+// import appendToEachArrayValue from './10-loops.js';
+import createEmployeesObject from './11-createEmployeesObject.js';
 
-import appendToEachArrayValue from './10-loops.js';
 
 
 // console.log(`${taskFirst()}  ${taskNext()}`);
@@ -45,4 +46,6 @@ import appendToEachArrayValue from './10-loops.js';
 // console.log(fullBudget.getIncomeInDollars(fullBudget.income));
 // console.log(fullBudget.getIncomeInEuros(fullBudget.income));
 
-console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
+// console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
+
+console.log(createEmployeesObject("Software", ["Bob", "Sylvie"]));

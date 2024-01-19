@@ -3,8 +3,8 @@
 // import getNeighborhoodsList from './2-arrow.js';
 // import getSumOfHoods from './3-default-parameter.js';
 // import returnHowManyArguments from './4-rest-parameter.js';
-import concatArrays from './5-spread-operator.js';
-
+// import concatArrays from './5-spread-operator.js';
+import getSanFranciscoDescription from './6-string-interpolation.js';
 
 
 
@@ -25,4 +25,7 @@ import concatArrays from './5-spread-operator.js';
 // console.log(returnHowManyArguments("one", "two", 3, "4th"));
 
 
-console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+// console.log(concatArrays(['a', 'b'], ['c', 'd'], 'Hello'));
+
+
+console.log(getSanFranciscoDescription());

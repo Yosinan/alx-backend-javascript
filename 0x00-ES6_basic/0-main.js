@@ -5,7 +5,8 @@
 // import returnHowManyArguments from './4-rest-parameter.js';
 // import concatArrays from './5-spread-operator.js';
 // import getSanFranciscoDescription from './6-string-interpolation.js';
-import getBudgetObject from './7-getBudgetObject.js';
+// import getBudgetObject from './7-getBudgetObject.js';
+import getBudgetForCurrentYear from "./8-getBudgetCurrentYear";
 
 
 
@@ -33,4 +34,6 @@ import getBudgetObject from './7-getBudgetObject.js';
 
 
 
-console.log(getBudgetObject(400, 700, 900));
+// console.log(getBudgetObject(400, 700, 900));
+
+console.log(getBudgetForCurrentYear(2100, 5200, 1090));

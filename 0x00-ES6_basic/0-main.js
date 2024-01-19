@@ -6,7 +6,8 @@
 // import concatArrays from './5-spread-operator.js';
 // import getSanFranciscoDescription from './6-string-interpolation.js';
 // import getBudgetObject from './7-getBudgetObject.js';
-import getBudgetForCurrentYear from "./8-getBudgetCurrentYear";
+// import getBudgetForCurrentYear from "./8-getBudgetCurrentYear";
+import getFullBudgetObject from "./9-getFullBudget";
 
 
 
@@ -36,4 +37,8 @@ import getBudgetForCurrentYear from "./8-getBudgetCurrentYear";
 
 // console.log(getBudgetObject(400, 700, 900));
 
-console.log(getBudgetForCurrentYear(2100, 5200, 1090));
+// console.log(getBudgetForCurrentYear(2100, 5200, 1090));
+
+console.log(getFullBudgetObject(2100, 5200, 1090));
+console.log(fullBudget.getIncomeInDollars(fullBudget.income));
+console.log(fullBudget.getIncomeInEuros(fullBudget.income));

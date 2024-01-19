@@ -10,7 +10,7 @@
 // import getFullBudgetObject from "./9-getFullBudget";
 // import appendToEachArrayValue from './10-loops.js';
 import createEmployeesObject from './11-createEmployeesObject.js';
-
+import createReportObject from './12-createReportObject.js';
 
 
 // console.log(`${taskFirst()}  ${taskNext()}`);
@@ -48,4 +48,15 @@ import createEmployeesObject from './11-createEmployeesObject.js';
 
 // console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
 
-console.log(createEmployeesObject("Software", ["Bob", "Sylvie"]));
+// console.log(createEmployeesObject("Software", ["Bob", "Sylvie"]));
+
+
+
+const employees = {
+    ...createEmployeesObject('engineering', ['Bob', 'Jane']),
+    ...createEmployeesObject('marketing', ['Sylvie'])
+};
+
+const report = createReportObject(employees);
+console.log(report.allEmployees);
+console.log(report.getNumberOfDepartments(report.allEmployees));

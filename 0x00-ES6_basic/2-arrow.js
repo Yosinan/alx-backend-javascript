@@ -3,10 +3,8 @@ export default function getNeighborhoodsList() {
 
     const self = this;
 
-    const add = (newNeighborhood) => {
+    this.addNeighborhood = (newNeighborhood) => {
         this.sanFranciscoNeighborhoods.push(newNeighborhood);
         return this.sanFranciscoNeighborhoods;
     };
-
-    this.addNeighborhood = add;
 }

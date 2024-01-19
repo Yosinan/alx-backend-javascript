@@ -8,5 +8,5 @@ export default function getNeighborhoodsList() {
         return this.sanFranciscoNeighborhoods;
     };
 
-    this.addNeighborhood = add;
+    this.addNeighborhood
 }
